@@ -127,6 +127,7 @@ body {
 /* psevdo */
 
 .psevdo__after {
+    margin-top: 20px;
     background-color: #5D62B5;
     color: white;
     padding: 15px;
