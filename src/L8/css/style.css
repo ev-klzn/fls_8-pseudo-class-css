@@ -13,16 +13,20 @@
 	border: 0;
 	box-sizing: border-box;
 }
+
 li {
 	list-style: none;
 }
+
 a,
 a:visited {
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -32,16 +36,21 @@ h6 {
 	font-weight: inherit;
 	font-size: inherit;
 }
+
 img {
 	vertical-align: top;
 }
+
 html,
 body {
 	height: 100%;
 }
+
 html {
-	font-size: 16px; /* по умолчанию */
+	font-size: 16px;
+	/* по умолчанию */
 }
+
 body {
 	line-height: 1;
 	/* color: #000; */
@@ -49,10 +58,12 @@ body {
 	font-family: "Roboto";
 	font-size: 30px;
 }
+
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
 }
+
 /* ------------------------------ */
 .block {
 	padding: 30px;
@@ -60,6 +71,7 @@ body {
 	background-color: #7a956b;
 	margin: 0px 0px 20px 0px;
 }
+
 /*
 Обращение к дочернему элементу, 
 при состоянии ("при наведении") родителя 
@@ -80,6 +92,7 @@ body {
 .link:visited {
 	color: yellowgreen;
 }
+
 /*
 Замечание: Из-за причин приватности, 
 браузеры строго ограничивают стили, которые вы 
@@ -123,6 +136,7 @@ fill и stroke. Заметьте также, что альфа-канал буд
 .link:active {
 	color: #000;
 }
+
 /*
 .button {
 	border-radius: 5px;
@@ -154,6 +168,7 @@ fill и stroke. Заметьте также, что альфа-канал буд
 	display: none;
 	background-color: #77608d;
 }
+
 .window:target {
 	display: block;
 }
@@ -163,11 +178,13 @@ fill и stroke. Заметьте также, что альфа-канал буд
 .text {
 	margin: 0px 0px 50px 0px;
 }
+
 .text p {
 	/* margin: 0px 0px 20px 0px; */
 }
-.list {
-}
+
+.list {}
+
 .list li {
 	margin: 0px 0px 20px 0px;
 }
@@ -256,6 +273,7 @@ fill и stroke. Заметьте также, что альфа-канал буд
 .content {
 	margin: 0px 0px 30px 0px;
 }
+
 .content::first-line {
 	/* color: red; */
 }
@@ -388,40 +406,51 @@ fill и stroke. Заметьте также, что альфа-канал буд
 	background: #02133c;
 	padding: 50px 0;
 }
+
 .items__container {
 	max-width: 1020px;
 	margin: 0px auto;
 }
+
 .items__list {
 	font-size: 0;
 	margin: 0px -12px;
 }
+
 .item {
 	display: inline-block;
 	width: 25%;
 	padding: 0px 12px;
 	vertical-align: top;
 }
+
 .item__image {
 	display: inline-block;
 	width: 76px;
 	text-align: center;
 	vertical-align: top;
 }
+
 .item__body {
 	padding: 0px 0px 0px 11px;
 	vertical-align: top;
 	display: inline-block;
 }
+
 .item__title {
 	color: #c40b0b;
 	font-weight: 900;
 	font-size: 36px;
 	line-height: 42px;
 }
+
 .item__text {
 	color: #f5f5f5;
 	font-size: 16px;
 	line-height: 24px;
 	max-width: 130px;
 }
+
+/* 8 end---------------------------------------------------- */
+
+/* 9 image formats ------------------------------------------*/
